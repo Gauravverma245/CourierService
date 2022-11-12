@@ -124,12 +124,6 @@ const Update =()=>{
         </label>
         <input type="date" className="form-control" value={arrivalTime} onChange={(e) =>{setArrivalTime(e.target.value)}} />
       </div>
-      {/* <div className="mb-3">
-        <label  className="form-label">
-          Price(Rs.)
-        </label>
-        <input type="number" className="form-control" value={price} onChange={(e) =>{setPrice(e.target.value)}} />
-      </div> */}
 
       <button type="submit" className="btn btn-primary" onClick={updateHandler}>
         Update

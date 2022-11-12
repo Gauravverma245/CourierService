@@ -31,7 +31,6 @@ const Form = () => {
         weight: weight,
         dispatchTime: dispatchTime,
         arrivalTime: arrivalTime,
-        // price : price
       })
       .then((res) => {
         // console.log(res);
